@@ -19,6 +19,12 @@ jurisdiction: urn:iso:std:iso:3166#AU "Australia"
 pages:
   index.md:
     title: Home
+  background.md:
+    title: Clinical Background & Workflow
+  conformance.md:
+    title: Must Support & Conformance
+  security.md:
+    title: Security & Privacy
 
 menu:
   Home: index.html
