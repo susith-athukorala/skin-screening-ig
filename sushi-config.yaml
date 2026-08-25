@@ -11,8 +11,8 @@ releaseLabel: ci-build
 license: CC0-1.0
 
 publisher:
-  name: "Rosemary Bryant AO Research Centre, University of Adelaide"
-  url: "https://www.adelaide.edu.au"
+  name: "Rosemary Bryant AO Research Centre, Adelaide University, Australia"
+  url: "https://adelaide.edu.au/research/rosemary-bryant-ao-research-centre/"
 
 jurisdiction: urn:iso:std:iso:3166#AU "Australia"
 
