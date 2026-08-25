@@ -2,9 +2,9 @@ Profile: FitzpatrickSkinTypeObservation
 Parent: Observation
 Id: fitzpatrick-skin-type
 Title: "Fitzpatrick Skin Type Observation"
-Description: "Records the patient's skin phototype based on the Fitzpatrick scale using SNOMED CT terminology."
+Description: "Records the patient's skin phototype using SNOMED CT observable entity and standard answer codes."
 * status = #final
-* code = http://snomed.info/sct#399677003 "Fitzpatrick skin phototype"
+* code = http://snomed.info/sct#443708004 "Fitzpatrick classification skin type score"
 * subject 1..1
 * subject only Reference(Patient)
 * effective[x] 1..1
@@ -16,11 +16,11 @@ Description: "Records the patient's skin phototype based on the Fitzpatrick scal
 ValueSet: FitzpatrickSkinTypeValueSet
 Id: fitzpatrick-skin-type-vs
 Title: "Fitzpatrick Skin Type Value Set"
-Description: "SNOMED CT concepts representing Fitzpatrick skin phototypes (Types 1 through 6)."
+Description: "Answer codes representing Fitzpatrick skin phototypes (Types I through VI)."
 * ^experimental = false
-* http://snomed.info/sct#416752003 "Fitzpatrick skin phototype 1"
-* http://snomed.info/sct#416753008 "Fitzpatrick skin phototype 2"
-* http://snomed.info/sct#416754002 "Fitzpatrick skin phototype 3"
-* http://snomed.info/sct#416755001 "Fitzpatrick skin phototype 4"
-* http://snomed.info/sct#416756000 "Fitzpatrick skin phototype 5"
-* http://snomed.info/sct#416757009 "Fitzpatrick skin phototype 6"
+* http://loinc.org#LA26421-4 "Type I"
+* http://loinc.org#LA26422-2 "Type II"
+* http://loinc.org#LA26423-0 "Type III"
+* http://loinc.org#LA26424-8 "Type IV"
+* http://loinc.org#LA26425-5 "Type V"
+* http://loinc.org#LA26426-3 "Type VI"
