@@ -2,7 +2,7 @@ id: au.edu.adelaide.rbrc.skinscreening
 canonical: https://susith-athukorala.github.io/skin-screening-ig
 name: RBRCSkinScreeningIG
 title: "Skin Screening FHIR Implementation Guide"
-description: "FHIR R4 Implementation Guide for Digital Skin Screening, Teledermatology, and Lesion Monitoring."
+description: "FHIR R4 Implementation Guide for Skin Screening, Teledermatology, and Lesion Monitoring."
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
@@ -19,3 +19,10 @@ jurisdiction: urn:iso:std:iso:3166#AU "Australia"
 pages:
   index.md:
     title: Home
+
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
+
+parameters:
+  show-inherited-invariants: false
