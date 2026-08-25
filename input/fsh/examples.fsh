@@ -9,12 +9,23 @@ Description: "An example patient for skin screening observations."
 * gender = #female
 * birthDate = "1980-05-12"
 
+Instance: PractitionerExample
+InstanceOf: Practitioner
+Title: "Example Practitioner"
+Description: "An example healthcare practitioner conducting skin cancer screening."
+* active = true
+* name[0].use = #official
+* name[0].family = "Taylor"
+* name[0].given[0] = "Sarah"
+* name[0].prefix[0] = "Dr."
+
 Instance: ExampleSkinLesionObservation
 InstanceOf: SkinLesionObservation
 Title: "Example Skin Lesion Finding"
 Description: "An example observation of an asymmetrical pigmented lesion on the back."
 * status = #final
 * subject = Reference(PatientExample)
+* performer[0] = Reference(PractitionerExample)
 * effectiveDateTime = "2026-08-25T10:30:00+09:30"
 * bodySite = http://snomed.info/sct#371309009 "Skin structure of upper arm"
 
@@ -24,5 +35,6 @@ Title: "Example Fitzpatrick Skin Phototype"
 Description: "An example observation recording a patient with Fitzpatrick Skin Type II."
 * status = #final
 * subject = Reference(PatientExample)
+* performer[0] = Reference(PractitionerExample)
 * effectiveDateTime = "2026-08-25T10:30:00+09:30"
 * valueCodeableConcept = http://loinc.org#LA15338-9 "Skin-type II: fair skin, blond or light-brown hair, light eyes (blue or green), usual sunburn"
