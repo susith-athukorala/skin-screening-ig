@@ -1,6 +1,5 @@
 Instance: PatientExample
 InstanceOf: Patient
-Id: patient-example
 Title: "Example Patient"
 Description: "An example patient for skin screening observations."
 * active = true
@@ -12,7 +11,6 @@ Description: "An example patient for skin screening observations."
 
 Instance: ExampleSkinLesionObservation
 InstanceOf: SkinLesionObservation
-Id: example-skin-lesion
 Title: "Example Skin Lesion Finding"
 Description: "An example observation of an asymmetrical pigmented lesion on the back."
 * status = #final
@@ -23,7 +21,6 @@ Description: "An example observation of an asymmetrical pigmented lesion on the 
 
 Instance: ExampleFitzpatrickSkinType
 InstanceOf: FitzpatrickSkinTypeObservation
-Id: example-fitzpatrick-skin-type
 Title: "Example Fitzpatrick Skin Phototype"
 Description: "An example observation recording a patient with Fitzpatrick Skin Type II."
 * status = #final
