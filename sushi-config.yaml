@@ -1,0 +1,21 @@
+id: au.edu.adelaide.rbrc.skinscreening
+canonical: https://susith-athukorala.github.io/skin-screening-ig
+name: RBRCSkinScreeningIG
+title: "Skin Screening FHIR Implementation Guide"
+description: "FHIR R4 Implementation Guide for Digital Skin Screening, Teledermatology, and Lesion Monitoring."
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026
+releaseLabel: ci-build
+license: CC0-1.0
+
+publisher:
+  name: "Rosemary Bryant AO Research Centre, University of Adelaide"
+  url: "https://www.adelaide.edu.au"
+
+jurisdiction: urn:iso:std:iso:3166#AU "Australia"
+
+pages:
+  index.md:
+    title: Home
