@@ -17,7 +17,7 @@ ValueSet: FitzpatrickSkinTypeValueSet
 Id: fitzpatrick-skin-type-vs
 Title: "Fitzpatrick Skin Type Value Set"
 Description: "SNOMED CT concepts representing Fitzpatrick skin phototypes (Types 1 through 6)."
-* experimental = false
+* ^experimental = false
 * http://snomed.info/sct#416752003 "Fitzpatrick skin phototype 1"
 * http://snomed.info/sct#416753008 "Fitzpatrick skin phototype 2"
 * http://snomed.info/sct#416754002 "Fitzpatrick skin phototype 3"
