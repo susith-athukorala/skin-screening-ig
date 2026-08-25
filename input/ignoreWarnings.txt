@@ -1,1 +1,4 @@
 == Suppressed Messages ==
+*could usefully have an OID assigned* = OIDs not required for REST-based FHIR IG
+*should have an OID assigned* = OIDs not required for REST-based FHIR IG
+*elementdefinition-maxValueSet* = R4 core extension deprecation note
