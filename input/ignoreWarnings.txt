@@ -1,10 +1,4 @@
 == Suppressed Messages ==
-
-*could usefully have an OID assigned*
-reason: OIDs are not required for pure REST-based FHIR Implementation Guides
-
-*should have an OID assigned*
-reason: OIDs are not required for pure REST-based FHIR Implementation Guides
-
-*elementdefinition-maxValueSet*
-reason: Base FHIR R4 extension deprecation notice from upstream tooling
+*could usefully have an OID assigned* // OIDs not required for REST-based FHIR IG
+*should have an OID assigned* // OIDs not required for REST-based FHIR IG
+*elementdefinition-maxValueSet* // Base FHIR R4 extension deprecation notice from upstream tooling
