@@ -1,6 +1,6 @@
 # Skin Screening FHIR Implementation Guide
 
-Welcome to the **Skin Screening Implementation Guide**, developed at the **Rosemary Bryant AO Research Centre (RBRC)**, Adelaide University.
+Welcome to the **Skin Screening Implementation Guide**, developed at the **Rosemary Bryant AO Research Centre (RBRC)**, Adelaide University, Australia.
 
 ## Purpose & Clinical Scope
 This implementation guide standardizes data exchange for:
