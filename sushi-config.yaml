@@ -26,4 +26,3 @@ menu:
 
 parameters:
   show-inherited-invariants: false
-  auto-oid-root: 2.16.840.1.113883.2.3.4.1
