@@ -22,7 +22,18 @@ pages:
 
 menu:
   Home: index.html
-  Artifacts: artifacts.html
+  Guidance:
+    Clinical Background & Workflow: background.html
+    Must Support & Conformance: conformance.html
+    Security & Privacy: security.html
+  FHIR Artifacts:
+    Profiles: artifacts.html#structures-resource-profiles
+    Terminology: artifacts.html#terminology-value-sets
+    Examples: artifacts.html#example-example-instances
+  Artifact Index: artifacts.html
+  Support:
+    Downloads: downloads.html
+    QA Report: qa.html
 
 parameters:
   show-inherited-invariants: false
