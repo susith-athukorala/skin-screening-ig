@@ -8,6 +8,7 @@ Description: "Describes the RESTful interaction requirements for a FHIR reposito
 * fhirVersion = #4.0.1
 * format[0] = #json
 * format[1] = #xml
+* description = "Describes the RESTful interaction requirements for a FHIR repository managing skin screening observations."
 * rest[0].mode = #server
 * rest[0].resource[0].type = #Patient
 * rest[0].resource[0].interaction[0].code = #read
