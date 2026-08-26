@@ -25,6 +25,8 @@ pages:
     title: Must Support & Conformance
   security.md:
     title: Security & Privacy
+  downloads.md:
+    title: Downloads
 
 menu:
   Home: index.html
